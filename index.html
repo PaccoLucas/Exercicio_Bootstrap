@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP Animes - Asista online seu animes favoritos</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        header {
+            background-color: #323131;
+        }
+        h1 {
+            color: orange;
+        }
+        .nav-item a  {
+            color: #fff;
+        }
+        body {
+            background-color: #4c4949;
+        }
+        .imagens-animes {
+            height: 480px;
+        }
+        @media screen and (min-width: 1023px) {
+            .carousel-inner {
+            height: 480px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>LP Animes</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animes">Animes</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div id="inicio" class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img id="image-carousel" class="d-block w-100" src="images/DrStone.webp" alt="teste">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img id="image-carousel" class="d-block w-100 " src="images/VilandSaga.webp" alt="teste">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img id="image-carousel" class="d-block w-100" src="images/Kamikatsu.webp" alt="teste">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="animes">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/jujutsu.jpeg" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">Jujutsu Kaisen</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/Black-Clover.png" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">Black Clover</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/my hero academia.webp" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">My Hero Academia</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/naruto.jpeg" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">Naruto Shippuden</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/Boruto.jpeg" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">Boruto</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark m-2">
+                    <div class="card-header">
+                    </div>
+                    <img class="imagens-animes" src="images/death note.jpeg" alt="Imagem teste">
+                    <div class="card-body">
+                        <h4 class="card-title">Death Note</h4>
+                        <h5 class="card-subtitle">Sub | Dub</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                        <a href="#" class="btn btn-secondary">Comece a assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
